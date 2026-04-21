@@ -313,7 +313,7 @@ int tree_from_index(ObjectID *id_out)
         }
 
         // Hash
-        tentry->hash = entry->id;
+        tentry->hash = entry->hash;
     }
 
     void *data = NULL;
